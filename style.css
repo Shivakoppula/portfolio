@@ -1,0 +1,27 @@
+.typing{
+    /* display: inline-block; */
+    /* background-color: red; */
+    animation: type 5s steps(10) infinite,blink 2s step-end infinite;
+    /* overflow: hidden; */
+    border-right: 2px solid white;
+}
+@keyframes type{
+    0%
+    {width:0ch}
+    60%{
+        width: 10ch;
+    }
+    100%{
+        width:0ch;
+    }
+
+}
+@keyframes blink{
+    0%,100%
+    {
+        border-right: transparent;
+    }
+    50%{
+        border-right:2px solid white;
+    }
+}
