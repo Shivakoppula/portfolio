@@ -25,3 +25,17 @@
         border-right:2px solid white;
     }
 }
+@font-face {
+  font-display: block;
+  font-family: "bootstrap-icons";
+  src: url("./bootstrap-icons.woff2") format("woff2"),
+
+}
+/* .html{
+    animation: html 10s ease-in 10s infinite ;
+}
+@keyframes html {
+    0%{width: 0%;}
+    90%{width: 90%;}
+    
+} */
